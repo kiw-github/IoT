@@ -1,3 +1,4 @@
 <?php
-  phpinfo();
+  $headers=getallheaders ();//Получаем заголовки
+  echo json_encode($_REQUEST)
 ?>
